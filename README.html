@@ -1,0 +1,40 @@
+tml<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's Safety Reporting</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Report Crime Against Women</h1>
+    </header>
+    <div class="container">
+        <form id="crimeReportForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            
+            <label for="department">Department:</label>
+            <select id="department" name="department">
+                <option value="Computer Science">Computer Science</option>
+                <option value="Electrical Engineering">Electronics Engineering</option>
+ <option value="Electrical Engineering">Electrical Engineering</option>
+ <option value="Electrical Engineering">Civil Engineering</option>
+                <option value="Mechanical Engineering">Mechanical Engineering</option>
+                <!-- Add more department options as needed -->
+            </select><br>
+            
+            <label for="contact">Contact Details:</label>
+            <input type="text" id="contact" name="contact" required><br>
+            
+            <label for="description">Description of Incident:</label>
+            <textarea id="description" name="description" rows="4" required></textarea><br>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
